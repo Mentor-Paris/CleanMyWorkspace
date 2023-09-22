@@ -2,6 +2,7 @@ package CleanMyWorkspace
 
 import "math/rand"
 
+// waste is a list of waste
 var waste = []string{
 	"Canette de soda",
 	"Papier de brouillon",
@@ -15,6 +16,7 @@ var waste = []string{
 	"git a la racine",
 }
 
+// randomWaste return a random waste
 func randomWaste() *string {
 	t := new(string)
 	*t = waste[rand.Intn(len(waste))]

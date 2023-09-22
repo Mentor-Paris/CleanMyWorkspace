@@ -2,6 +2,7 @@ package CleanMyWorkspace
 
 import "math/rand"
 
+// GenerateWorkSpace generate the souk with random waste
 func GenererateWorkSpace() *[][]*string {
 	w, h := rand.Intn(25)+25, rand.Intn(25)+25
 	result := make([][]*string, h)
