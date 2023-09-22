@@ -11,6 +11,8 @@ var waste = []string{
 	"Emballage de sandwich",
 	"Mouchoir en papier",
 	"Reste de nuggets",
+	"os d'oscar",
+	"git a la racine",
 }
 
 func randomWaste() *string {
