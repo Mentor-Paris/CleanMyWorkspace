@@ -2,7 +2,7 @@ package CleanMyWorkspace
 
 import "math/rand"
 
-func GenrerateWorkSpace() *[][]*string {
+func GenererateWorkSpace() *[][]*string {
 	w, h := rand.Intn(25)+25, rand.Intn(25)+25
 	result := make([][]*string, h)
 	for i := range result {
